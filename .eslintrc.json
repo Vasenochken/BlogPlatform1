@@ -1,0 +1,51 @@
+{
+  "env": {
+      "browser": true,
+      "es2021": true 
+  },
+  "ignorePatterns": [
+        "node_modules",
+        "dist",
+        "build"
+    ],
+  "extends": [ 
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:prettier/recommended",
+      "plugin:import/errors",
+      "plugin:import/warnings"
+  ],
+  "parserOptions": {
+      "ecmaFeatures": {
+          "jsx": true
+      },
+      "ecmaVersion": 12,
+      "sourceType": "module"
+  },
+  "plugins": [
+      "react", 
+      "prettier",
+      "import"
+  ],
+  "rules": {
+      "prettier/prettier": "error",
+      "react/prop-types": 0
+  },
+  "settings": {
+    "react": {
+        "version": "detect"
+    },
+    "import/resolver": {
+        "node": {
+            "extensions": [
+                ".js",
+                ".jsx"
+            ],
+            "moduleDirectory": [
+                "node_modules",
+                "src/"
+            ]
+        }
+    }
+  }
+}
