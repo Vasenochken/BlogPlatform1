@@ -1,0 +1,138 @@
+.sign_up {
+  width:384px;
+  margin: 0 auto;
+  margin-top: 59px;
+  background:  rgba(255, 255, 255, 1);
+  padding: 48px 32px 48px 32px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 6px;
+  box-shadow: 0px 0.6087964177131653px 2.9332919120788574px 0px rgba(0, 0, 0, 0.0197);
+  box-shadow: 0px 1.4630224704742432px 7.049108028411865px 0px rgba(0, 0, 0, 0.0283);
+  box-shadow: 0px 2.7547414302825928px 13.272845268249512px 0px rgba(0, 0, 0, 0.035);
+  box-shadow: 0px 4.91398811340332px 23.67648696899414px 0px rgba(0, 0, 0, 0.0417);
+  box-shadow: 0px 9.19107437133789px 44.28426742553711px 0px rgba(0, 0, 0, 0.0503);
+  box-shadow: 0px 22px 106px 0px rgba(0, 0, 0, 0.07);
+
+    &__title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px;
+      text-align: center;
+      color: rgba(38, 38, 38, 1);
+    }
+
+    &__forms {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__label {
+      display: block;
+      margin-top: 12px;
+      margin-bottom: 2px;
+      font-family: 'Roboto',sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      color: rgba(38, 38, 38, 1);
+    }
+
+    &__label:first-child {
+      margin-top: 21px;
+    }
+
+    &__input_username, &__input_email,
+    &__input_password, &__input_password_repeat {
+      height: 40px;
+      width: 320px;
+      margin-top: 2px;
+      padding: 8px 12px;
+      border: 1px solid rgba(217, 217, 217, 1);
+      border-radius: 4px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: rgba(0, 0, 0, 0.75);
+    }
+
+    &__input_error {
+      margin-top: 2px;
+      border: 1px solid #bf1650;
+      border-radius: 4px;
+    }
+
+    &__box_agreement {
+      margin-top: 21px;
+      border-top: 1px solid rgba(232, 232, 232, 1);
+      padding-top: 8px;
+      display: flex;
+    }
+
+    &__checkbox {
+      align-self: flex-start;
+    }
+
+    &__box_agreement_text {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      padding-left: 8px;
+      text-align: left;
+      color: rgba(89, 89, 89, 1);
+    }
+
+    &__button_send_form {
+      width: 319px;
+      height: 40px;
+      margin-top: 21px;
+      padding: 8px 16px 8px 16px;
+      border-radius: 4px;
+      background: rgba(24, 144, 255, 1);
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    &__account_question {
+      margin-top: 8px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: center;
+      color: rgba(140, 140, 140, 1);
+    }
+
+    &__link_sign_in {
+      font-family: 'Roboto', sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: center;
+      color:  rgba(24, 144, 255, 1);
+    }
+
+    &__text_error {
+      margin-top: 2px;
+      display: flex;
+      color: #bf1650;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+    }
+
+    &__text_error::before {
+      display: inline;
+      content: "⚠ ";
+      padding-right: 5px;
+    }
+}

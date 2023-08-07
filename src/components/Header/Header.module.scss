@@ -1,0 +1,102 @@
+.header {
+  height: 80px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+
+  &__title {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color:  rgba(0, 0, 0, 0.85);
+  }
+
+  &__box_un_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+    &__link_sign_in {
+      display: block;
+      font-family: 'Inter', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.85);
+    }
+
+    &__link_sign_up {
+      display: block;
+      font-family: 'Inter', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: center;
+      padding: 10px 18px;
+      color: rgba(82, 196, 26, 1);
+      border: 1px solid rgba(82, 196, 26, 1);
+      border-radius: 5px;
+    }
+  
+  &__box_on_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+  }
+
+  &__button_create {
+    padding: 4px 8px;
+    border: 1px solid rgba(82, 196, 26, 1);
+    border-radius: 5px;
+    color: rgba(82, 196, 26, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+    &__box_profile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 13px;
+      font-family: 'Inter', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+      color: rgba(0, 0, 0, 0.85);
+    }
+
+      &__link_username {
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.85);
+      }
+
+      &__profile_avatar {
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+      }
+    
+      &__button_logout {
+        padding: 10px 18px;
+        border: 1px solid rgba(0, 0, 0, 0.75);
+        border-radius: 5px;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.75);
+      }
+}
