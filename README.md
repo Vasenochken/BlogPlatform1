@@ -1,1 +1,1 @@
-https://blog-platform1-br98amaft-bonanava-yandexru.vercel.app/
+https://blog-platform-phi-one.vercel.app/
